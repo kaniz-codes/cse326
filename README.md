@@ -19,11 +19,12 @@ Session       : Summer 2026
 
 ## Index
 
-| Class | Theory | Lab |
-|-----:|--------|-----|
-| 01 | 11 May 26 ( Introduction )| 12 May 26 (Single & double Char input/output)|
-| 02 | 14 May 26 ( Micoprocessor Architecture, Chapter 2 - Registers, Memory Addressing )| 19 May 26 ( String input/output )|
-| 03 | 18 May 26 ( Chapter 2 - Physical Address, Logical Address, Physical Addres -> Logical Address  )| - |
+| Class | Theory Topic | Lab Topic |
+|------:|--------------|-----------|
+| 01 | 11 May 2026 — Introduction | 12 May 2026 — Single and Double Character Input/Output |
+| 02 | 14 May 2026 — Microprocessor Architecture, Registers, and Memory Addressing | 19 May 2026 — String Input/Output |
+| 03 | 18 May 2026 — Real Mode: Physical Address, Logical Address, and Address Conversion | — |
+| 04 | 21 May 2026 — Protected Mode: Memory Addressing, Descriptors, and Descriptor Access | — |
 
 
 ## What is Microprocessor?
