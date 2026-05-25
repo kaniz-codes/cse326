@@ -21,8 +21,9 @@ Session       : Summer 2026
 
 | Class | Theory | Lab |
 |-----:|--------|-----|
-| 01 | 11-May-26 ( Introduction )| 12-May-26 (Single & double Char input/output)|
-| 02 | 14-May-26 (Micoprocessor Architecture, Chapter 2 [Registers, Memory Addressing])| 19-May-26 (String input/output)|
+| 01 | 11 May 26 ( Introduction )| 12 May 26 (Single & double Char input/output)|
+| 02 | 14 May 26 ( Micoprocessor Architecture, Chapter 2 - Registers, Memory Addressing )| 19 May 26 ( String input/output )|
+| 03 | 18 May 26 ( Chapter 2 - Physical Address, Logical Address, Physical Addres -> Logical Address  )| - |
 
 
 ## What is Microprocessor?
