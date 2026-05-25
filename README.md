@@ -17,6 +17,13 @@ Session       : Summer 2026
 - **Designation:** Lecturer, Dept of CSE
 - **Email:** nourin_khandaker@bubt.edu.bd
 
+## Index
+
+| Class | Theory | Lab |
+|-----:|--------|-----|
+| 01 | 11-May-26 ( Introduction )| 12-May-26 (Single & double Char input/output)|
+| 02 | 14-May-26 (Micoprocessor Architecture, Chapter 2 [Registers, Memory Addressing])| 19-May-26 (String input/output)|
+
 
 ## What is Microprocessor?
 A microprocessor is a programmable electronic chip that works as the central processing unit of a computer system. It performs arithmetic, logical, control, and input/output operations by executing instructions.
