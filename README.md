@@ -26,6 +26,11 @@ Session       : Summer 2026
 | 03 | 18 May 2026 — Real Mode: Physical Address, Logical Address, and Address Conversion | — |
 | 04 | 21 May 2026 — Protected Mode: Memory Addressing, Descriptors, and Descriptor Access | — |
 
+## Mid-Exam Topics
+
+Exam Date: 04 July 2026
+
+## Final-Exam Topics
 
 ## What is Microprocessor?
 A microprocessor is a programmable electronic chip that works as the central processing unit of a computer system. It performs arithmetic, logical, control, and input/output operations by executing instructions.
