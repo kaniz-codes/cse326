@@ -12,14 +12,13 @@ The main goal of this lab is to understand how decision-making works in Assembly
 
 ## Index
 
-| Problem | Task | View Code | Download |
-|---:|---|---|---|
-| 01 | Take input two letters and print them in alphabetical order | [View](01-alphabetical-order.asm) | [Download](01-alphabetical-order.asm?raw=1) |
-| 02 | Take input two letters and print them in reverse alphabetical order | [View](02-reverse-alphabetical-order.asm) | [Download](02-reverse-alphabetical-order.asm?raw=1) |
-| 03 | Take letter input and check if it is a vowel or consonant | [View](03-vowel-or-consonant.asm) | [Download](03-vowel-or-consonant.asm?raw=1) |
-| 04 | Take character input and check whether it is alphabet or digit | [View](04-alphabet-or-digit.asm) | [Download](04-alphabet-or-digit.asm?raw=1) |
-| 05 | Find the smallest and largest among 3 digits | [View](05-smallest-and-largest-digit.asm) | [Download](05-smallest-and-largest-digit.asm?raw=1) |
-
+| Problem | Task | View Code |
+|---:|---|---|
+| 01 | Take input two letters and print them in alphabetical order | [View](01-alphabetical-order.asm) |
+| 02 | Take input two letters and print them in reverse alphabetical order | [View](02-reverse-alphabetical-order.asm) |
+| 03 | Take letter input and check if it is a vowel or consonant | [View](03-vowel-or-consonant.asm) |
+| 04 | Take character input and check whether it is alphabet or digit | [View](04-alphabet-or-digit.asm) |
+| 05 | Find the smallest and largest among 3 digits | [View](05-smallest-and-largest-digit.asm) |
 
 ## Topics Covered
 
