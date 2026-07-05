@@ -51,10 +51,6 @@ If Windows shows a security warning, continue only if you are sure the file is f
 
 When EMU8086 asks for registration, enter your valid license information.
 
-```txt
-License Name: Add license name here
-Registration Key: Add registration key here
-```
 > ⚠️ Use only a valid license key provided by your teacher, university, or official purchase.
 
 ## Resources
