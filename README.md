@@ -25,7 +25,7 @@ Session       : Summer 2026
 | 02 | 14 May 2026 | Microprocessor Architecture, Registers, and Memory Addressing | 19 May 2026 | String Input/Output |
 | 03 | 18 May 2026 | Real Mode: Physical Address, Logical Address, and Address Conversion | 09 June 2026 | If-else problems |
 | 04 | 21 May 2026 | Protected Mode: Memory Addressing, Descriptors, and Descriptor Access | 16 June 2026 | For loop problems |
-| 05 | 04 June 2026 | Chapter 03: Addressing Mode | — | — |
+| 05 | 04 June 2026 | Chapter 03: Addressing Mode | 06 July 2026 | Arduino Basics |
 | 06 | 08 June 2026 | Chapter 04: Data Movement Instructions | — | — |
 | 07 | 11 June 2026 | Chapter 02: Introduction to Microcontroller | — | — |
 | 08 | 18 June 2026 | Chapter 02: 8051 Stack | — | — |
