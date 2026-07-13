@@ -22,7 +22,7 @@ Session       : Summer 2026
 | Class | Theory Date | Theory Topic | Lab Date | Lab Topic |
 |---:|---|---|---|---|
 | 01 | 11 May 2026 | Introduction | 12 May 2026 | [Single and Double Character Input/Output](lab/lab-01-single-character-io) |
-| 02 | 14 May 2026 | Microprocessor Architecture, Registers, and Memory Addressing | 19 May 2026 | String Input/Output |
+| 02 | 14 May 2026 | Microprocessor Architecture, Registers, and Memory Addressing | 19 May 2026 | [String Input/Output](lab/lab-02-string-input-output) |
 | 03 | 18 May 2026 | Real Mode: Physical Address, Logical Address, and Address Conversion | 09 June 2026 | [If-else problems](lab/lab-03-if-else-problems) |
 | 04 | 21 May 2026 | Protected Mode: Memory Addressing, Descriptors, and Descriptor Access | 16 June 2026 | For loop problems |
 | 05 | 04 June 2026 | Chapter 03: Addressing Mode | 06 July 2026 | [Arduino Basics](lab/lab-05-arduino-basics) |
