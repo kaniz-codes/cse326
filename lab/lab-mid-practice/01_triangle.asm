@@ -1,0 +1,74 @@
+.MODEL SMALL
+.STACK 100H
+.DATA
+
+STR DB "Enter 3 values: $"
+STR1 DB 10,13, "THIS IS AN EQUILATERAL TRIANGLE.$"
+STR2 DB 10,13, "THIS IS AN ISOSCALENE TRIANGLE.$"
+STR3 DB 10,13, "THIS IS AN SCALENE TRIANGLE.$"
+
+.CODE
+MAIN PROC
+    
+    MOV AX, @DATA
+    MOV DS, AX
+    
+    MOV AH, 9
+    LEA DX, STR
+    INT 21H    
+    
+    ;VALUE INPUT
+    MOV AH,1
+    INT 21H
+    MOV BL,AL
+    
+    INT 21H
+    MOV BH, AL
+    
+    INT 21H
+    MOV CL, AL 
+    
+    
+    CMP BL, BH
+    JE CHECKEQUAL
+    
+    ;IF BL != BH
+    CMP BH, CL
+    JE CHECKISO
+    CMP BL, CL
+    JE CHECKISO
+    
+    JMP SCALENE 
+    
+CHECKEQUAL:
+    CMP BL,CL
+    JE EQUILATERAL
+    
+CHECKISO:
+        JE ISOSCALENE
+        
+EQUILATERAL:
+    MOV AH,9
+    LEA DX, STR1
+    INT 21H
+    JMP EXIT    
+
+ISOSCALENE: 
+    MOV AH,9   
+    LEA DX, STR2
+    INT 21H
+    JMP EXIT
+    
+SCALENE: 
+    MOV AH,9
+    LEA DX, STR3
+    INT 21H
+    JMP EXIT
+     
+EXIT:
+    MOV AH, 4CH
+    INT 21H    
+    
+    
+    MAIN ENDP
+END MAIN
