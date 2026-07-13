@@ -1,0 +1,16 @@
+.MODEL SMALL
+.STACK 100H
+.DATA
+
+.CODE
+MAIN PROC
+    MOV DL, 66 ; ASCII for B is 66
+    MOV AH, 2
+    INT 21H
+    
+    MOV DL, 'B'
+    MOV AH, 2
+    INT 21H
+    
+    MAIN ENDP
+END MAIN

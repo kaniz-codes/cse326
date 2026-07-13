@@ -1,29 +1,50 @@
 # Lab 01: Single Character Input/Output
 
-## Objective
-To learn how to take a single character input and display output using 8086 Assembly.
+This lab introduces basic character input and output in 8086 Assembly
 
-## Tools Used
-- EMU8086 / DOSBox / MASM
-- 8086 Assembly Language
+## Single Character Input
+To take a single character input from the keyboard:
 
-## Program List
-| File | Description |
-|------|-------------|
-| single-character-input.asm | Takes one character input from user |
-| single-character-output.asm | Displays one character on screen |
+```asm
+MOV AH, 1
+INT 21H
+```
 
-## How to Run
-1. Open the `.asm` file in EMU8086.
-2. Compile the program.
-3. Run the program.
-4. Enter a character when asked.
+> **IMP:** `MOV AH, 01H` is used for single character input. `INT` stands for **Interrupt**.
 
-## Expected Output
-The program should display the entered character.
+> **Note:** The input character is automatically stored in the `AL` register. To store multiple inputs, move the value from `AL` to another 8-bit register.
+
+# Multiple Character Input
+
+To take multiple characters
+
+```asm
+MOV AH, 01H
+INT 21H
+MOV BH, AL
+
+MOV AH, 01H
+INT 21H
+MOV BL, AL
+```
+
+
+# Single Character Output
+
+```asm
+MOV AH, 1
+INT 21H
+
+MOV AH,2
+INT 21H
+```
+>NOTE AH 2 is used foroutput
 
 ## Key Concepts
-- `MOV`
-- `INT 21H`
-- AH = 01H for input
-- AH = 02H for output
+
+- AH = Function set
+- AH = 01H for Read single keyboard character
+- AH = 02H for Display single character on screen
+- AH = 09H for Display a string on screen
+- AL = stores value automatically from input
+- DL = Defaultoutput register. We have to put the value inside DL to desplay the value as output.
