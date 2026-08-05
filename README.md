@@ -30,6 +30,7 @@ Session       : Summer 2026
 | 07 | 11 June 2026 | Chapter 02: Introduction to Microcontroller | — | — |
 | 08 | 18 June 2026 | Chapter 02: 8051 Stack | — | — |
 | 09 | 22 June 2026 | Chapter 03: Delay Calculation | — | — |
+| 10 | 09 July 2026 | **MicroController** Chapter 08: Hex File | — | — |
 
 ## How to Install EMU8086
 
